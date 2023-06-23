@@ -193,7 +193,7 @@
     
     /*Landing Section */
     .landing {
-      background-image: linear-gradient(to right, blue 40%, black 60%);
+      background-image: linear-gradient(to right, blue 10%, black 90%);
       background-color: ;
       background-position: center;
       background-image: url(images/49.png);
