@@ -193,7 +193,7 @@
     
     /*Landing Section */
     .landing {
-      
+      background-color: blue;
       background-position: center;
       background-image: url(images/49.png);
       background-repeat: no-repeat;
