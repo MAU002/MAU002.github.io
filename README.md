@@ -1,3 +1,3 @@
 # MAU002.github.io
-Moran Website
+Moran
 Portfolio website for me as a web developer.
