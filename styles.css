@@ -8,6 +8,7 @@
     
     .navbar {
       background: #131313;
+      opacity: 0.9;
       height: 80px;
       display: flex;
       justify-content: center;
@@ -177,30 +178,52 @@
         display: block;
         cursor: pointer;
       }
+
+      
     
       #mobile-menu.is-active .bar:nth-child(2) {
         opacity: 0;
       }
+
+
+      #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+   }
+
+
+   #mobile-menu.is-active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(320deg);
     
-      #mobile-menu.is-active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-      }
-    
-      #mobile-menu.is-active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-      }
+}
+
+#mobile-menu.is-active .bar:nth-child(3) {
+transform: translateY(-8px) rotate(-320deg);
+
+}
+/*
+   #mobile-menu.is-active .bar:nth-child(1) {
+       transform: translateY(8px) rotate(45deg);
+       
+  }
+
+  #mobile-menu.is-active .bar:nth-child(3) {
+   transform: translateY(-8px) rotate(-45deg);
+   
+}*/
+
+     
     }
+    
     
     /*Landing Section */
     .landing {
-      background-image: linear-gradient(to right, blue 10%, black 90%);
-      background-color: ;
+      
       background-position: center;
-      background-image: url(images/49.png);
+      background-image: url(images/2.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       padding: 200px 0;
-     /*background: linear-gradient(to right, #0226f3, #000000);*/
+     background: linear-gradient(to right, #0226f3, #000000);
     }
    
     .landing_container {
@@ -292,6 +315,7 @@
       width: 100%;
       max-width: 1300px;
       padding: 0 50px;
+      
     }
     
     .main_content {
@@ -383,13 +407,15 @@
     
     .main_img--container {
       text-align: center;
+     
     }
     
     .main_img--card {
       margin: 10px;
       height: 500px;
       width: 500px;
-      border-radius: 4px;
+      border-radius: 200px;
+      border: solid #fff800;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -734,7 +760,9 @@
       color: white;
     }
 
+   
     .aboutus {
+      background: #12d8fa;
       background-image: url(images/2.png);
       background-image: -moz-element();
       background-image: -moz-linear-gradient();
