@@ -1,50 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>Moran</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-
-      <link rel="stylesheet" href="styles.css" />
-      <link
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-        crossorigin="anonymous"
-      />
-      <link rel="icon" href="images/131.png" type="image">
-   </head>
-   <!-- body -->
-   <body class="main-layout inner_page">
-      <!-- loader  
-      <div class="loader_bg">
-         <div class="loader"><img src="images/131.png" alt="loading"/>loading</div>
-      </div>
-      end loader -->
-     
-      <!-- Navbar Section -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moran Website Designer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="images/131.png" type="image">
+  </head>
+  <body>
+    <!-- Navbar Section -->
     <nav class="navbar">
+      
       <div class="navbar_container">
         <a href="#home" id="navbar_logo">Moran</a>
         <div class="navbar_toggle" id="mobile-menu">
@@ -56,90 +28,102 @@
             <a href="index.html" class="navbar_links" id="home-page">Home</a>
           </li>
           <li class="navbar_item">
-            <a href="aboutus.html" class="navbar_links" id="about-page">About</a>
+            <a href="#about" class="navbar_links" id="about-page">About</a>
           </li>
-          
+          <a href="contact.html" class="navbar_links" id="contact-page">Contact us</a>
+         </li>
           <li class="navbar_item">
-            <a href="services.html" class="navbar_links" id="services-page">Services</a>
+            <a href="#services" class="navbar_links" id="services-page">Services</a>
           </li>
           <li class="navbar_btn">
-            <a href="#sign-up" class="button" id="signup">Sign Up</a>
+            <a href="contact.html" class="button" id="contact.html">Sign Up</a>
           </li>
         </ul>
       </div>
     </nav>
 
-
-      <!-- contact -->
-      <div class="contact">
-         <div class="container">
-            <div class="row ">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_center">
-                     <h3>Do you want a Website? Or just </br>Contact Us We are more than happy to be in contact with you.</h3>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <form id="request" class="main_form">
-                     <div class="row">
-                        <div class="col-md-6 ">
-                           <input class="contactus" placeholder="Name" type="type" name=" Name"> 
-                        </div>
-                        <div class="col-md-6">
-                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Email" type="type" name="Email">                          
-                        </div>
-                        <div class="col-md-12 select-outline">
-                           <select class="custom-select ">
-                              <option selected>Website type</option>
-                              <option value="1">Advertise with us</option>
-                              <option value="2">Design for you a website</option>
-                              <option value="3">Design for you an Online shop</option>
-                              <option value="4">School Website</option>
-                              <option value="4">Landing page</option>
-                           </select>
-                        </div>
-                        <div class="col-md-12">
-                           <textarea class="textarea" placeholder="Message" type="type" Message="Name"></textarea>
-                        </div>
-                        <div class="col-md-12">
-                        
-                           <a href="mailto:mauriceaila063@gmail.com"><button class="send_btn">Send</button></a>
-                        </div>
-                     </div>
-                  </form>
-               </div>
-               <div class="col-md-6">
-                  <div class="map_main">
-                     <div class="map-responsive">
-
-                        <iframe src="https://www.google.com/maps/place/1%C2%B006'32.1%22S+35%C2%B051'39.3%22E/@-1.1089167,35.8602853,242m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d-1.108918!4d35.860929?entry=ttu" width="450" height="450" style="border-radius:50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        
-                       
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-
-
+    <!-- landing Section -->
+    <div class="landing" id="home">
+      <div class="landing_container">
+        
+        <h1 class="landing_heading">Moran Website <span>Designers</span></h1>
+        <img src="images/2.png" alt="Gadgets image">
+        <p class="landing_description">We Design fully Responsive website.</p>
+        
+        <button class="main_btn"><a href="#about">See More</a></button>
+        <i class="fa-sharp fa-light fa-circle-down"></i>
       </div>
-     
+    </div>
 
-</div>
-      <!-- End of contact -->
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main_container">
+        <div class="main_img--container">
+          <div class="main_img--card"> <img  style="border-radius: 250px;" src="images/fly.png" alt="Gadgets image"><i class=""></i></div>
+        </div>
+        <div class="main_content">
+          <h1>Website for all Gadgets</h1>
+          <h2>Phone first</h2>
+          <p>We design light weight website with the phone given the highest consideration. You cannot afford to loose over seven billion android phones around the globe. All connected to your business. These phones are in the hands of potential consumers 24/7.  A good website must load clearly on the phone of lowest screen width as well as on tablet screen and any pc/computer screen. It must be light enough to load very fast on the consumer's gadget. This what we consider on websites.Do not loose this opportunity. </p>
+          <a href="tel:+254105224338"><button class="main_btn"><a href="#services">Make a Call</a></button></a>
+        </div>
+      </div>
+    </div>
+
+   
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <h1>Billions of Phones are online</h1>
+      <div class="services_wrapper">
+        <div class="services_card">
+          <img src="images/7.jpg" alt="Gadgets image">
+          <h2>Over seven Billion android phones</h2>
+          <p>Using latest technology we ensure that your website will load clearly on an android phone which is so far the most common phone around the globe. By considering android first means all other phones are included</p>
+          <a href="tel:+254105224338"><div class="services_btn"><button>Get Started</button></div></a>
+        </div>
+        <div class="services_card">
+          <img src="images/6.jpg" alt="Gadgets image">
+          <h2>Tablet phones</h2>
+          
+          <p>As a businessman take advantage of all the tablets around the globe. Your potential clients use them and therefore at Moran we design a clear code that ensures your website loads clearly on a tablet of any screen size.</p>
+          <a href="tel:+254105224338"><div class="services_btn"><button>Get Started</button></div></a>
+        </div>
+        <div class="services_card">
+          <img src="images/8.jpg" alt="Gadgets image">
+          <h2>Browser optimizations</h2>
+          <p>With several browsers around the world with many more coming, we ensure that your website will optimize clearly on all most commonly used browsers.</p>
+          <a href="tel:+254105224338"><div class="services_btn"><button>Get Started</button></div></a>
+        </div>
+        <div class="services_card">
+          <img src="images/21.jpg" alt="Gadgets image">
+          <h2>Search engine optimizations and speed</h2>
+          <p>We use latest technology to ensure that your website loads on the front page of google search engine. Most consumers who use search engines like google the most popular ignore everything that loads on the third and fourth page of the search engine. Tthe website should also lord first given good internet connection. Twelve second is considered fast enough.</p>
+          <a href="tel:+254105224338"><div class="services_btn"><button>Get Started</button></div></a>
+        </div>
+      </div>
+    </div>
+
+<a href="tel:+254105224338"></a>
 
 
+    <!-- Features Section -->
+    <div class="main" id="sign-up">
+      <div class="main_container">
+        <div class="main_content">
+          <h1>Join Our Team</h1>
+          <h2>With Us Your Growth is Assured</h2>
+          <p>See what makes us different. We also handle wordpress and wix websites.</p>
+          <button class="main_btn"><a href="#">Sign Up</a></button>
+        </div>
+        <div class="main_img--container">
+          <div class="main_img--card" id="card-2">
+            <i class=""><img src="images/12.png" alt="Gadgets image"></i>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-      <!-- Footer Section -->
-    
-
-
-
-       <!-- Footer Section -->
+    <!-- Footer Section -->
     <div class="footer_container">
       <div class="footer_links">
         <div class="footer_link--wrapper">
@@ -163,11 +147,13 @@
           <div class="footer_link--items">
             <h2>Social Media</h2>
             <a href="https://z-p15.www.instagram.com/accounts/edit/">Instagram</a> <a href="/">Facebook</a>
-            <a href="/">Youtube</a> <a href="https://twitter.com/aila_maurice">Twitter</a>
-            <a href="https://github.com/MAU002">Github</a>
+            <a href="/">Youtube</a>  <a href="https://twitter.com/aila_maurice">Twitter</a>
+            
+            <a href="https://github.com/MAU002" class="social_icon--link"><i class="fab fa-github"></i>
           </div>
         </div>
       </div>
+      
       <section class="social_media">
         <div class="social_media--wrap">
           <div class="footer_logo">
@@ -200,21 +186,6 @@
     <script src="app.js"></script>
   </body>
 </html>
-
-      <!-- Javascript files-->
-      <script src="app.js"></script>
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <!-- sidebar -->
-      <script src="js/custom.js"></script>
-      <script>
-         AOS.init();
-      </script>
-   </body>
-</html>
-
-
 
 
 
