@@ -798,7 +798,7 @@ transform: translateY(-8px) rotate(-320deg);
 
   }
   button {
-    width: 300px;
+    width: 250px;
     height: 50px;
     box-shadow: #131313;
     background-color: #ee0979;
@@ -820,7 +820,7 @@ transform: translateY(-8px) rotate(-320deg);
   }
 
   .contactus {
-    width: 400px;
+    width: 350px;
     height: 50px;
     margin: 20px;
     border-radius: 5px;
@@ -828,7 +828,7 @@ transform: translateY(-8px) rotate(-320deg);
     font-size: 1.3rem;
   }
   .custom-select {
-    width: 400px;
+    width: 350px;
     height: 50px;
     margin: 20px;
     border-radius: 5px;
@@ -837,7 +837,7 @@ transform: translateY(-8px) rotate(-320deg);
   }
 
   .textarea {
-    width: 400px;
+    width: 350px;
     height: 50px;
     margin: 20px;
     border-radius: 5px;
